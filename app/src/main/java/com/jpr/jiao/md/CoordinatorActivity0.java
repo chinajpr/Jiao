@@ -1,11 +1,11 @@
 package com.jpr.jiao.md;
 
-import android.database.CursorIndexOutOfBoundsException;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.widget.TextView;
 
 import com.jpr.jiao.R;
 
@@ -13,21 +13,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 类描述：
+ * 类描述：CoordinatorLayout + AppBarLayout
  * 创建日期：2019/8/10.
  * 作者：jiaopeirog
  */
-public class CoordinatorActivity extends AppCompatActivity {
+public class CoordinatorActivity0 extends AppCompatActivity {
     private RecyclerView recyclerView;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_coor);
+        setContentView(R.layout.activity_coor0);
         initView();
     }
 
     private void initView() {
+
         List<String> list = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
             list.add(String.valueOf(i));

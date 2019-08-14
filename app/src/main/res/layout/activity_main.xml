@@ -9,8 +9,14 @@
 
 
     <Button
-        android:onClick="coor"
-        android:text="coor"
+        android:onClick="coor0"
+        android:text="coor0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="coor1"
+        android:text="coor1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

@@ -18,11 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".md.CoordinatorActivity"></activity>
+        <activity android:name=".md.CoordinatorActivity0"></activity>
         <activity android:name=".StatusBar.Title4Activity"></activity>
         <activity android:name=".StatusBar.Title5Activity"></activity>
         <activity android:name=".StatusBar.Title6Activity"></activity>
         <activity android:name=".StatusBar.TitleAllActivity"></activity>
+        <activity android:name=".md.CoordinatorActivity1"></activity>
     </application>
 
 </manifest>

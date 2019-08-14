@@ -32,7 +32,7 @@ public class Title4Activity extends AppCompatActivity {
         //标题栏和状态栏重叠
         // 方案1：android:fitsSystemWindows="true" 给view添加一个值为状态栏高度的top padding
         // 方案2：生成一个状态栏高度，并且颜色和title背景一致的view
-//        setStatusBarView(getResources().getColor(R.color.colorAccent) , 0);//如果title为图片，则不需要这一行
+        setStatusBarView(getResources().getColor(R.color.colorAccent) , 0);//如果title为图片，则不需要这一行
     }
 
 
