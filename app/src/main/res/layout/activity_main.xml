@@ -26,4 +26,10 @@
         android:text="statusBar"
         android:onClick="statusBar"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="recyclerView"
+        android:onClick="recyclerView"/>
+
 </LinearLayout>

@@ -24,6 +24,9 @@
         <activity android:name=".StatusBar.Title6Activity"></activity>
         <activity android:name=".StatusBar.TitleAllActivity"></activity>
         <activity android:name=".md.CoordinatorActivity1"></activity>
+        <activity android:name=".recyclerview.MyRV"></activity>
+        <activity android:name=".recyclerview.RecyclerView1"></activity>
+        <activity android:name=".recyclerview.RecyclerView2"></activity>
     </application>
 
 </manifest>
