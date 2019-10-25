@@ -27,6 +27,7 @@
         <activity android:name=".recyclerview.MyRV"></activity>
         <activity android:name=".recyclerview.RecyclerView1"></activity>
         <activity android:name=".recyclerview.RecyclerView2"></activity>
+        <activity android:name="com.jpr.jiao.nestedScrolling.NestedActivity"></activity>
     </application>
 
 </manifest>

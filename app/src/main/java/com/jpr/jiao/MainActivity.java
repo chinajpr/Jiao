@@ -9,6 +9,7 @@ import android.view.View;
 import com.jpr.jiao.StatusBar.TitleAllActivity;
 import com.jpr.jiao.md.CoordinatorActivity0;
 import com.jpr.jiao.md.CoordinatorActivity1;
+import com.jpr.jiao.nestedScrolling.NestedActivity;
 import com.jpr.jiao.recyclerview.MyRV;
 
 public class MainActivity extends AppCompatActivity {
@@ -39,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void recyclerView(View view) {
         intent = new Intent(this , MyRV.class);
+        startActivity(intent);
+    }
+
+    public void nested(View view) {
+        intent = new Intent(this , NestedActivity.class);
         startActivity(intent);
     }
 }

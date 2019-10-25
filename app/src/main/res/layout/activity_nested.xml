@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jpr.jiao.nestedScrolling.MyNestedScrollParent
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f0f"
+            android:text="top000000000000000\nsdjkllkdfk" />
+
+        <com.jpr.jiao.nestedScrolling.MyNestedScrollChild
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="content1111111111111\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222\n2222222222"
+                android:textColor="#f0f" />
+        </com.jpr.jiao.nestedScrolling.MyNestedScrollChild>
+    </com.jpr.jiao.nestedScrolling.MyNestedScrollParent>
+</RelativeLayout>

@@ -32,4 +32,10 @@
         android:text="recyclerView"
         android:onClick="recyclerView"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nested"
+        android:onClick="nested"/>
+
 </LinearLayout>
