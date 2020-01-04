@@ -1,4 +1,4 @@
-package com.jpr.jiao.customview.draw;
+package com.jpr.jiao.customview.view;
 
 import android.content.Context;
 import android.graphics.Canvas;

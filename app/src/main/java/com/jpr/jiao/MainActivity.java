@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.jpr.jiao.StatusBar.TitleAllActivity;
+import com.jpr.jiao.customview.view.ClockActivity;
+import com.jpr.jiao.customview.viewgroup.MyViewGroupActivity;
 import com.jpr.jiao.md.CoordinatorActivity0;
 import com.jpr.jiao.md.CoordinatorActivity1;
 import com.jpr.jiao.nestedScrolling.NestedActivity;
@@ -44,7 +46,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void nested(View view) {
-        intent = new Intent(this , NestedActivity.class);
+        intent = new Intent(this, NestedActivity.class);
+        startActivity(intent);
+    }
+    public void myViewGroup(View view) {
+        intent = new Intent(this , MyViewGroupActivity.class);
+        startActivity(intent);
+    }
+
+    public void clock(View view) {
+        intent = new Intent(this , ClockActivity.class);
         startActivity(intent);
     }
 }

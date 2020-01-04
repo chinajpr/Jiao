@@ -1,0 +1,18 @@
+<com.jpr.jiao.customview.viewgroup.MyViewGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="220px"
+    android:layout_height="wrap_content"
+    android:background="#ff00ff"
+    tools:context=".MainActivity">
+
+    <TextView android:text="第一个VIEW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:background="#ff0000"/>
+
+
+
+</com.jpr.jiao.customview.viewgroup.MyViewGroup>
