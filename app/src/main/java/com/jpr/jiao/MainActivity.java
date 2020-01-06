@@ -13,6 +13,7 @@ import com.jpr.jiao.md.CoordinatorActivity0;
 import com.jpr.jiao.md.CoordinatorActivity1;
 import com.jpr.jiao.nestedScrolling.NestedActivity;
 import com.jpr.jiao.recyclerview.MyRV;
+import com.jpr.jiao.retrofit.RetrofitActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -56,6 +57,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void clock(View view) {
         intent = new Intent(this , ClockActivity.class);
+        startActivity(intent);
+    }
+
+    public void retrofit(View view) {
+        intent = new Intent(this , RetrofitActivity.class);
         startActivity(intent);
     }
 }

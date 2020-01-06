@@ -31,6 +31,7 @@
         <activity android:name="com.jpr.jiao.nestedScrolling.NestedActivity"></activity>
         <activity android:name=".customview.viewgroup.MyViewGroupActivity"></activity>
         <activity android:name=".customview.view.ClockActivity"></activity>
+        <activity android:name=".retrofit.RetrofitActivity"></activity>
     </application>
 
 </manifest>

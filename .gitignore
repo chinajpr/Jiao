@@ -127,3 +127,5 @@ Jiao.iml
 .idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml
 .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_50_jar.xml
 .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_50_jar.xml
+.idea/libraries/Gradle__com_google_code_gson_gson_2_6_1_jar.xml
+.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_0_2_jar.xml
