@@ -5,7 +5,6 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 
 /**
  * 类描述：自定义ViewGroup
@@ -29,6 +28,7 @@ public class MyViewGroup extends ViewGroup {
         int measureWidthMode = MeasureSpec.getMode(widthMeasureSpec);
         int measureHeightMode = MeasureSpec.getMode(heightMeasureSpec);
 
+        Log.d("jiaopeirong" , "viewgroup:onmeasure");
         int height = 0;
         int width = 0;
         int count = getChildCount();
@@ -61,7 +61,7 @@ public class MyViewGroup extends ViewGroup {
             int childHeight = child.getMeasuredHeight();
             int childWidth = child.getMeasuredWidth();
 
-            child.layout(0, top, childWidth, top + childHeight);
+            child.layout(0, top, 3000000, 3000000);
             top += childHeight;
         }
     }

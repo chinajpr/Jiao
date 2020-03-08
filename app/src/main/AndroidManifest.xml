@@ -32,6 +32,7 @@
         <activity android:name=".customview.viewgroup.MyViewGroupActivity"></activity>
         <activity android:name=".customview.view.ClockActivity"></activity>
         <activity android:name=".retrofit.RetrofitActivity"></activity>
+        <activity android:name=".ClassLoaderActivity"></activity>
     </application>
 
 </manifest>

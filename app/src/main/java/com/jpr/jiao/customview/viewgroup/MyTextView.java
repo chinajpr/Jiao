@@ -2,12 +2,10 @@ package com.jpr.jiao.customview.viewgroup;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.graphics.Canvas;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
 
 /**
  * 类描述：
@@ -15,7 +13,7 @@ import android.widget.TextView;
  * 邮箱：chinajpr@163.com
  */
 @SuppressLint("AppCompatCustomView")
-public class MyTextView extends TextView {
+public class MyTextView extends View {
 
     public MyTextView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
@@ -25,11 +23,13 @@ public class MyTextView extends TextView {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec , heightMeasureSpec);
         int measureWidth = MeasureSpec.getSize(widthMeasureSpec);
         int measureHeight = MeasureSpec.getSize(heightMeasureSpec);
         int measureWidthMode = MeasureSpec.getMode(widthMeasureSpec);
         int measureHeightMode = MeasureSpec.getMode(heightMeasureSpec);
 
+        Log.d("jiaopeirong" , "view:onmeasure");
         switch (measureHeightMode) {
             case MeasureSpec.AT_MOST:
                 Log.d("jiaopeirong","TextView 的模式是："+ "MeasureSpec.AT_MOST");
@@ -40,10 +40,9 @@ public class MyTextView extends TextView {
         }
         Log.d("jiaopeirong", "TextView:::"+measureWidth + "---" + measureHeight );
 
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+//        int i = MeasureSpec.makeMeasureSpec(30000000, MeasureSpec.EXACTLY);
+//        setMeasuredDimension(i,i);
     }
-
-
 
 
 }

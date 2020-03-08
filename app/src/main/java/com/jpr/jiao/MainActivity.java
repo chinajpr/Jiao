@@ -64,4 +64,9 @@ public class MainActivity extends AppCompatActivity {
         intent = new Intent(this , RetrofitActivity.class);
         startActivity(intent);
     }
+
+    public void classloader(View view) {
+        intent = new Intent(this , ClassLoaderActivity.class);
+        startActivity(intent);
+    }
 }

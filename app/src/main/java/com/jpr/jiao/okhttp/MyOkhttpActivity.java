@@ -5,10 +5,16 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.io.IOException;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+import java.util.List;
 
 import okhttp3.Call;
 import okhttp3.Callback;
+import okhttp3.Dns;
 import okhttp3.HttpUrl;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
@@ -31,7 +37,15 @@ public class MyOkhttpActivity extends AppCompatActivity {
         //1.OkHttpClient对象
         OkHttpClient client = new OkHttpClient.Builder()
                 .addInterceptor(new TestInterceptor())
+                .dns(new Dns() {
+                    @NotNull
+                    @Override
+                    public List<InetAddress> lookup(@NotNull String s) throws UnknownHostException {
+                        return null;
+                    }
+                })
                 .build();
+
         //2.Request
         Request request = new Request.Builder().
                 url("https://www.baidu.com").
@@ -82,6 +96,7 @@ public class MyOkhttpActivity extends AppCompatActivity {
 
             return chain.proceed(builder.build());
         }
+
     }
 
 }

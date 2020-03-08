@@ -129,3 +129,10 @@ Jiao.iml
 .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_50_jar.xml
 .idea/libraries/Gradle__com_google_code_gson_gson_2_6_1_jar.xml
 .idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_0_2_jar.xml
+.idea/libraries/Gradle__com_jakewharton_rxbinding_rxbinding_0_4_0_aar.xml
+.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava_2_1_0_jar.xml
+.idea/libraries/Gradle__com_trello_rxlifecycle_1_0_jar.xml
+.idea/libraries/Gradle__com_trello_rxlifecycle_android_1_0_aar.xml
+.idea/libraries/Gradle__com_trello_rxlifecycle_components_1_0_aar.xml
+.idea/libraries/Gradle__io_reactivex_rxandroid_1_1_0_aar.xml
+.idea/libraries/Gradle__io_reactivex_rxjava_1_2_1_jar.xml

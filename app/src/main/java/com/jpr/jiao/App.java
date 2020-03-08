@@ -1,6 +1,9 @@
 package com.jpr.jiao;
 
 import android.app.Application;
+import android.view.View;
+
+import dalvik.system.BaseDexClassLoader;
 
 /**
  * 类描述：App
@@ -18,4 +21,6 @@ public class App extends Application {
     public static App getInstance(){
         return instance;
     }
+
+
 }

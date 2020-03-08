@@ -25,12 +25,14 @@ public class RetrofitActivity extends AppCompatActivity {
         setContentView(R.layout.activity_retrofit);
     }
 
+
     public void request() {
 
         //步骤4:创建Retrofit对象
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://fanyi.youdao.com/") // 设置 网络请求 Url
                 .addConverterFactory(GsonConverterFactory.create()) //设置使用Gson解析(记得加入依赖)
+//                .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .build();
 
         // 步骤5:创建 网络请求接口 的实例
@@ -61,4 +63,5 @@ public class RetrofitActivity extends AppCompatActivity {
     public void net(View view) {
         request();
     }
+
 }
