@@ -12,6 +12,7 @@ import com.jpr.jiao.customview.viewgroup.MyViewGroupActivity;
 import com.jpr.jiao.md.CoordinatorActivity0;
 import com.jpr.jiao.md.CoordinatorActivity1;
 import com.jpr.jiao.nestedScrolling.NestedActivity;
+import com.jpr.jiao.other.StringActivity;
 import com.jpr.jiao.recyclerview.MyRV;
 import com.jpr.jiao.retrofit.RetrofitActivity;
 
@@ -67,6 +68,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void classloader(View view) {
         intent = new Intent(this , ClassLoaderActivity.class);
+        startActivity(intent);
+    }
+
+    public void stringClick(View view) {
+        intent = new Intent(this , StringActivity.class);
         startActivity(intent);
     }
 }

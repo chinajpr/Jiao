@@ -33,6 +33,7 @@
         <activity android:name=".customview.view.ClockActivity"></activity>
         <activity android:name=".retrofit.RetrofitActivity"></activity>
         <activity android:name=".ClassLoaderActivity"></activity>
+        <activity android:name=".other.StringActivity"></activity>
     </application>
 
 </manifest>

@@ -1,3 +1,14 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Jiao</string>
+    <string name="string0">&quot;B&quot; 双引号</string>
+    <string name="string1">我爱%s</string>
+    <string name="string2">中国的人口有%d亿</string>
+    <string name="string33">小明%d岁了，上%d年级了，在%s学校</string>
+    <string name="string3">小明%1$d岁了，上%2$d年级了，在%3$s学校</string>
+    <string name="string4">小明<xliff:g id="xxx">%d</xliff:g>岁了，上<xliff:g id="xxx">%d</xliff:g>年级了，在<xliff:g id="xxx">%s</xliff:g>学校</string>
+    <string name="string5">小明 <xliff:g id="xxx"> %1$d</xliff:g>岁了，上<xliff:g id="xxx">%2$d</xliff:g>年级了，在<xliff:g id="xxx">%3$s</xliff:g>学校</string>
+    <plurals name="string6">
+        <item quantity="one">%d 分钟</item>
+        <item quantity="other">%d 分钟s</item>
+    </plurals>
 </resources>
