@@ -2,9 +2,9 @@ package com.jpr.jiao.other;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.jpr.jiao.R;
 
@@ -16,7 +16,7 @@ import com.jpr.jiao.R;
 public class StringActivity extends AppCompatActivity {
     @SuppressLint("StringFormatMatches")
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_string);
         TextView tv0 = findViewById(R.id.tv0);

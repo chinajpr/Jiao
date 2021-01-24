@@ -34,6 +34,8 @@
         <activity android:name=".retrofit.RetrofitActivity"></activity>
         <activity android:name=".ClassLoaderActivity"></activity>
         <activity android:name=".other.StringActivity"></activity>
+        <activity android:name=".jni.JniActivity"/>
+        <activity android:name=".handler.HandlerActivity1"/>
     </application>
 
 </manifest>

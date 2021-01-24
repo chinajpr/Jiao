@@ -2,7 +2,6 @@ package com.jpr.jiao.customview.viewgroup;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
@@ -15,7 +14,7 @@ import android.view.View;
 @SuppressLint("AppCompatCustomView")
 public class MyTextView extends View {
 
-    public MyTextView(Context context, @Nullable AttributeSet attrs) {
+    public MyTextView(Context context,  AttributeSet attrs) {
         super(context, attrs);
     }
 

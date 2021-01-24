@@ -2,9 +2,9 @@ package com.jpr.jiao.StatusBar;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.jpr.jiao.R;
 
@@ -17,7 +17,7 @@ public class TitleAllActivity extends AppCompatActivity {
     Intent intent;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_status_all);
     }

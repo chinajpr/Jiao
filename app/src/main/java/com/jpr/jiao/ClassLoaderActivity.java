@@ -1,14 +1,10 @@
 package com.jpr.jiao;
 
 import android.app.Activity;
-import android.app.Instrumentation;
 import android.os.Bundle;
-import android.os.Handler;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import dalvik.system.BaseDexClassLoader;
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * 类描述：
@@ -17,7 +13,7 @@ import dalvik.system.BaseDexClassLoader;
  */
 public class ClassLoaderActivity extends Activity {
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ClassLoader classLoader = getClassLoader();
         while (classLoader != null) {

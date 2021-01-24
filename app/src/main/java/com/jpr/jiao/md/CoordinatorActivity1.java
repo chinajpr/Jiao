@@ -1,13 +1,11 @@
 package com.jpr.jiao.md;
 
-import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+import android.widget.Toolbar;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.jpr.jiao.R;
 
@@ -24,7 +22,7 @@ public class CoordinatorActivity1 extends AppCompatActivity {
     private RecyclerView recyclerView;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_coor1);
         initView();
@@ -32,7 +30,7 @@ public class CoordinatorActivity1 extends AppCompatActivity {
 
     private void initView() {
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("Title");
+//        toolbar.setTitle("Title");
 //        CollapsingToolbarLayout collapsingToolbarLayout = findViewById(R.id.coll);
 //        collapsingToolbarLayout.setContentScrimColor(Color.parseColor("#999333"));
         List<String> list = new ArrayList<>();
@@ -43,5 +41,6 @@ public class CoordinatorActivity1 extends AppCompatActivity {
         recyclerView = findViewById(R.id.recycler);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(coorAdapter);
+
     }
 }
